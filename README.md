@@ -67,6 +67,10 @@ make test
 
 Run `make help` to see every available command.
 
+## Development Tooling & Recommended Plugins
+
+Panduan dan ringkasan shortcut plugin produktivitas Jetpack Compose (Compose HotSwan v2, Compose Navigation Graph, Rainbow Brackets, Key Promoter X, JSON to Kotlin Class) dapat dilihat pada [Panduan Plugin](docs/DEVELOPMENT_PLUGINS.md).
+
 ## Requirements
 
 - Android Studio with a compatible Android SDK
