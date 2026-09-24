@@ -40,8 +40,13 @@ Plugin visualisasi graf navigasi untuk Jetpack Compose. Menghadirkan kembali kem
 
 ---
 
-### C. Rainbow Brackets
+### C. Rainbow Brackets Lite (Free & Open Source)
 Plugin pewarna kurung bersarang (*nested brackets*). Sangat krusial dalam pengembangan Jetpack Compose karena struktur hirarki UI berbasis fungsi bersarang (`Column { Card { Row { Box { ... } } } }`).
+
+> [!NOTE]
+> **Mengapa Versi Lite?**  
+> Versi standar *Rainbow Brackets* (komersial) sekarang menerapkan model langganan berbayar dan mewajibkan modul lisensi `com.intellij.marketplace` (*JetBrains Marketplace Licensing*). Karena Android Studio tidak menyertakan modul marketplace komersial tersebut secara bawaan, versi standar akan memunculkan error *"requires JetBrains Marketplace"*.  
+> Oleh karena itu, kita menggunakan **Rainbow Brackets Lite** (resmi oleh pengembang yang sama: Zhihao Zhang) yang **100% Free & Open-Source**, tidak memerlukan lisensi, dan langsung kompatibel tanpa error di Android Studio.
 
 - **Fungsi Utama**:
   - Memberikan warna pelangi berbeda untuk setiap pasang kurung `()`, `{}`, dan `[]` sesuai kedalaman tingkatannya.
