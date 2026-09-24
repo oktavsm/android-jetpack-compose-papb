@@ -12,3 +12,10 @@
 *.keystore
 keystore.properties
 local.properties
+
+# Ignore lecture docs / materials, keep markdown documentation
+/docs/*
+!/docs/*.md
+*.pdf
+*.docx
+*.doc
